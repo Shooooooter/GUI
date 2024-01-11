@@ -1,0 +1,16 @@
+.image {
+    -fx-opacity: 1;
+    -fx-translate-x: 1;
+    -fx-animation-name: slideIn;
+}
+
+@-fx-keyframes slideIn {
+    from {
+        -fx-translate-x: 1;
+        -fx-opacity: 1;
+    }
+    to {
+        -fx-translate-x: -400; /* Adjust this value based on your requirement */
+        -fx-opacity: 1;
+    }
+}

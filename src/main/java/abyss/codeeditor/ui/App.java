@@ -16,10 +16,8 @@ public class App extends Application {
 
     @Override
     public void start(Stage primaryStage) throws IOException {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("/abyss/codeeditor/ui/App.fxml"));
-        Scene scene = new Scene(loader.load(), 800, 600);
-
-        scene.getStylesheets().add(Objects.requireNonNull(getClass().getResource("/abyss/codeeditor/ui/App.css")).toExternalForm());
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/abyss/codeeditor/ui/StartTheme.fxml"));
+        Scene scene = new Scene(loader.load(), 1280, 1080);
 
         primaryStage.setTitle("Simple Editor");
         primaryStage.setScene(scene);

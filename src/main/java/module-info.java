@@ -11,4 +11,6 @@ module abyss.codeeditor.ui {
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
 
+    opens abyss.codeeditor.ui to javafx.fxml;
+    exports  abyss.codeeditor.ui;
 }
