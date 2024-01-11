@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+
+    <StackPane fx:id="stackPane" xmlns="http://javafx.com/javafx"
+               xmlns:fx="http://javafx.com/fxml"
+               fx:controller="abyss.codeeditor.ui.StartThemeController"
+               stylesheets="@/abyss/codeeditor/ui/StartTheme.css">
+        <ImageView fx:id="image1" fitWidth="1280" fitHeight="1080" opacity="0">
+            <image>
+                <Image url="@/abyss/codeeditor/ui/Images/L1.png"/>
+            </image>
+        </ImageView>
+
+        <ImageView fx:id="image2" fitWidth="1280" fitHeight="1080" opacity="0">
+            <image>
+                <Image url="@/abyss/codeeditor/ui/Images/L2.png"/>
+            </image>
+        </ImageView>
+
+        <ImageView fx:id="image3" fitWidth="1280" fitHeight="1080" opacity="0">
+            <image>
+                <Image url="@/abyss/codeeditor/ui/Images/L3.png"/>
+            </image>
+        </ImageView>
+
+        <ImageView fx:id="image4" fitWidth="1280" fitHeight="1080" opacity="0">
+            <image>
+                <Image url="@/abyss/codeeditor/ui/Images/L4.png"/>
+            </image>
+        </ImageView>
+
+        <ImageView fx:id="image5" fitWidth="1280" fitHeight="1080" opacity="0">
+            <image>
+                <Image url="@/abyss/codeeditor/ui/Images/L5.png"/>
+            </image>
+        </ImageView>
+    </StackPane>
+
